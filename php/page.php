@@ -26,9 +26,6 @@
           </div>
           <div class="col" style="padding-top:1px;">
             <?php echo $page->content(); ?>
-             <br>
-              <!-- Load Bludit Plugins: Page End -->
-      <?php Theme::plugins('pageEnd'); ?>
           </div>
           <!-- tag -->
           <?php if (!empty($page->tags(true))): ?>
@@ -39,8 +36,12 @@
             </div>
           <?php endif; ?>
           <!--/ tag -->
+          <div class="col pb-3">
+            <?php Theme::plugins('pageEnd'); ?>
+            </div>
         </div>
         <!--/ Post Detail -->
+      <!-- Load Bludit Plugins: Page End -->
 
         <!-- Sidebar -->
         <div class="col-sm-4 p-4">
