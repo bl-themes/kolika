@@ -24,7 +24,7 @@
               <figcaption class="figure-caption"><?php echo $page->custom('figure'); ?></figcaption>
             </figure>
           </div>
-          <div class="col" style="padding-top:1px;">
+          <div class="col inner" style="padding-top:1px;">
             <?php echo $page->content(); ?>
           </div>
           <!-- tag -->
