@@ -23,3 +23,4 @@ a:hover{color:#000000;text-decoration: none;}
 </style>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/99398214e6.js" crossorigin="anonymous"></script>
+<?php Theme::plugins('siteHead'); ?>
