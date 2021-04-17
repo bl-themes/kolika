@@ -19,7 +19,7 @@
 .list-group-item{padding-left: 0px;}
 a{color:#6f42c1;text-decoration: none;}
 a:hover{color:#000000;text-decoration: none;}
-p img{width:100%;border-radius:5px;margin-top:22px;margin-bottom:13px;}
+.inner p img{width:100%;border-radius:5px;margin-top:22px;margin-bottom:13px;}
 </style>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/99398214e6.js" crossorigin="anonymous"></script>
